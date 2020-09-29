@@ -1,0 +1,13 @@
+{
+  "name": "project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "request": "^2.88.2"
+  },
+  "scripts": {
+    "start": "node FootballCompeitionGoals.js",
+    "pretest": "npm install",
+    "test": "rm -rf ./junit.xml && ./node_modules/.bin/react-scripts test --verbose --env=jsdom --testResultsProcessor ./node_modules/jest-junit"
+  }
+}
